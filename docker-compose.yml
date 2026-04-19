@@ -14,4 +14,6 @@ services:
       NEKO_PASSWORD_ADMIN: admin
       NEKO_EPR: 52000-52100
       NEKO_ICELITE: 1
-      NEKO_MAX_FPS: 60
+      NEKO_MAX_FPS: 30
+      # limit to 2 concurrent users for personal use
+      NEKO_MAX_CONNECTIONS: 2
