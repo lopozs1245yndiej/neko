@@ -17,3 +17,5 @@ services:
       NEKO_MAX_FPS: 30
       # limit to 2 concurrent users for personal use
       NEKO_MAX_CONNECTIONS: 2
+      # keep browser state between restarts
+      NEKO_IMPLICIT_CONTROL: 1
